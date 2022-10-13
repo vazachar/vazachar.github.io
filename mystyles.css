@@ -28,7 +28,10 @@ ul {
 
      h1 {
    color: rgb(159, 148, 211);
-   text-align:center
+    text-align: center;
+    font-size: 45px;
+    margin-block-start: 15px;
+    margin-block-end: 35px;
    }
 
       h2 {
