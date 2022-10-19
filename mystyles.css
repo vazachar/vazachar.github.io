@@ -1,3 +1,5 @@
+
+/*Beloew begins is the navigation bar at the top of both my pages- Source: https://www.w3schools.com/css/css_navbar.asp*/
 ul.nav {
     list-style-type: none;
     margin: 0;
@@ -21,14 +23,24 @@ ul.nav {
   li a:hover {
     background-color: #111;
   }
+/*Above is the end of navigation bar at the top of both my pages*/
 
     body {
      background-color: rgb(254, 254, 255);
    }
   
+/*Below begins the Background colour for the second page*/
+
+    body {
+     background-color: rgb(254, 254, 255);
+   }
+/*Above ends the Background colour for the second page*/
+
+/*Below begins the backgroung image, source: https://www.w3schools.com/cssref/pr_background-image.asp*/  
    .background1{
     background-image: url(/images1/algonquinsunset1.JPG);
 }
+/*Avove Ends is the navigation bar at the top of both my pages*/
 
      h1#title {
    color: rgb(159, 148, 211);
@@ -50,8 +62,10 @@ ul.nav {
 .API {
   height: auto;
   /* The height is 400 pixels */
-  width: 100%;
+  width: auto;
   /* The width is the width of the web page */
+  margin: center;
+  padding-left: 13%;
 }
 
 div.uppertextabout {
@@ -68,5 +82,22 @@ img {
   width: 400px;
   height: 600px;
   margin-left: 50px;
+  margin-bottom: 50px;
 }
 
+p {color:rgb(255, 255, 255);
+}
+
+div.studiolist {
+  color:rgb(255, 255, 255);
+  }
+
+a.externallinks{
+  text-decoration-line:none;
+  color:rgb(159, 149, 204);
+  font-weight: bold;
+}
+
+a.externallinks:hover {
+color:rgb(181, 253, 253)
+}
