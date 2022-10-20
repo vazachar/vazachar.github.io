@@ -23,23 +23,24 @@ ul.nav {
   li a:hover {
     background-color: #111;
   }
-/*Above is the end of navigation bar at the top of both my pages*/
+/*end of navigation bar at the top of both pages*/
 
-/*Below begins the Background colour for the second page*/
+/*Below begins the Background colour*/
 
     body {
      background-color: rgb(254, 254, 255);
    }
-/*Above ends the Background colour for the second page*/
+/*ends the Background colour*/
 
-/*Below begins the backgroung image, source: https://www.w3schools.com/cssref/pr_background-image.asp*/  
+/*Below begins the backgroung image (page 1), source: https://www.w3schools.com/cssref/pr_background-image.asp*/  
    .background1{
     background-image: url(/images1/algonquinsunset1.JPG);
 }
-/*Avove Ends is the navigation bar at the top of both my pages*/
+/* Ends is the background image (page1)*/
+/*below defines the colours, alignment and the fint size of the headings ( & ID)*/
 
      h1#title {
-   color: rgb(159, 148, 211);
+   color: rgb(159, 149, 204);
    text-align:center;
    font-size: 50px;
    }
@@ -53,16 +54,19 @@ ul.nav {
    color:rgb(255, 255, 255);
    text-align: center;
    }
+   /* end of headings specifications*/
   
-   /* Set the size of the div element that contains the map */
+   /* API maps height, width and padding specifications*/ 
 .API {
   height: auto;
   /* The height is 400 pixels */
   width: auto;
   /* The width is the width of the web page */
-  margin: center;
   padding-left: 13%;
 }
+/*end of API specifications*/
+
+/*the paragraph text specifications, margin left and right*/
 
 div.uppertextabout {
   margin-left: 50px;
@@ -73,6 +77,9 @@ div.lowertextabout {
   margin-left: 50px;
   margin-right: 50px;
 }
+/*end of paragraph text specifications*/
+
+/*image secifications (all images are in native resolution), margin around each image*/
 
 img {
   width: 400px;
@@ -80,14 +87,21 @@ img {
   margin-left: 50px;
   margin-bottom: 50px;
 }
+/*end of image specifications*/
+
+/*paragraph text colour specifications*/
 
 p {color:rgb(255, 255, 255);
 }
+/*end of paragraph colour specifications*/
 
+/*list colour specifications*/
 div.studiolist {
   color:rgb(255, 255, 255);
   }
+/*end of list specfications*/
 
+/*external links specifications, no line under, colour, hover and hover colour, and bolded*/
 a.externallinks{
   text-decoration-line:none;
   color:rgb(159, 149, 204);
@@ -97,4 +111,5 @@ a.externallinks{
 a.externallinks:hover {
 color:rgb(181, 253, 253)
 }
-/* End of external link specifications*/
+
+/*end of external link specifications*/
