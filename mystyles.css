@@ -35,10 +35,10 @@ ul.nav {
 /*Below begins the backgroung image, source: https://www.w3schools.com/cssref/pr_background-image.asp*/  
    .background1{
     background-image: url(/images1/algonquinsunset1.JPG);
-}
+    }
 /*Above Ends is the navigation bar at the top of both my pages*/
-}
 /*Below is the three headsings, specifying the colour, alignment and size (ID is here too)*/ 
+
      h1#title {
    color: rgb(159, 148, 211);
    text-align:center;
