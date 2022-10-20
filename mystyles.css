@@ -1,5 +1,6 @@
 
 /*Beloew begins is the navigation bar at the top of both my pages- Source: https://www.w3schools.com/css/css_navbar.asp*/
+
 ul.nav {
     list-style-type: none;
     margin: 0;
@@ -23,25 +24,21 @@ ul.nav {
   li a:hover {
     background-color: #111;
   }
-/*Above is the end of navigation bar at the top of both my pages*/
+/*End of navigation bar at the top of both my pages*/
 
+/*Below Begins is background colour*/
     body {
      background-color: rgb(254, 254, 255);
    }
-  
-/*Below begins the Background colour for the second page*/
-
-    body {
-     background-color: rgb(254, 254, 255);
-   }
-/*Above ends the Background colour for the second page*/
+/*Above ends the style for the background colour*/  
 
 /*Below begins the backgroung image, source: https://www.w3schools.com/cssref/pr_background-image.asp*/  
    .background1{
     background-image: url(/images1/algonquinsunset1.JPG);
 }
-/*Avove Ends is the navigation bar at the top of both my pages*/
-
+/*Above Ends is the navigation bar at the top of both my pages*/
+}
+/*Below is the three headsings, specifying the colour, alignment and size (ID is here too)*/ 
      h1#title {
    color: rgb(159, 148, 211);
    text-align:center;
@@ -57,7 +54,9 @@ ul.nav {
    color:rgb(255, 255, 255);
    text-align: center;
    }
-  
+/*End of the three headings, specifying the colour, alignment and size. source:https://www.w3schools.com/css/css_text.asp;https://www.w3schools.com/css/css_text_align.asp; https://www.w3schools.com/css/css_font_size.asp*/  
+
+/*Below is the API Map height, width and padding specifications. Source: https://www.w3schools.com/css/css_padding.asp: https://developer.mozilla.org/en-US/docs/Web/CSS/height*/ 
    /* Set the size of the div element that contains the map */
 .API {
   height: auto;
@@ -66,7 +65,9 @@ ul.nav {
   /* The width is the width of the web page */
   padding-left: 13%;
 }
+/*End of API maps*/
 
+/*Beginning of text indentation of 30px (also a class)*/
 div.uppertextabout {
   margin-left: 50px;
   margin-right: 50px;
@@ -76,7 +77,9 @@ div.lowertextabout {
   margin-left: 50px;
   margin-right: 50px;
 }
+/*End of text indentation*/
 
+/* Beginning of image margin changes. (images are in their native resolution*/
 img {
   width: 400px;
   height: 600px;
@@ -84,13 +87,21 @@ img {
   margin-bottom: 50px;
 }
 
+/* End of image margin changes. (images are in their native resolution*/
+
+/* Beginning of Paragraph colour chnange*/
+
 p {color:rgb(255, 255, 255);
 }
+/* End of Paragraph colour chnange*/
 
+/* Beginning List colour specfications*/
 div.studiolist {
   color:rgb(255, 255, 255);
   }
+/* End of list colour chnange*/
 
+/* Beginning of external link colour specifications, font weight, the specification of no underline, and hover function*/
 a.externallinks{
   text-decoration-line:none;
   color:rgb(159, 149, 204);
@@ -100,3 +111,5 @@ a.externallinks{
 a.externallinks:hover {
 color:rgb(181, 253, 253)
 }
+
+/* End of external link specifications*/
